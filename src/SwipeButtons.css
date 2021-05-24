@@ -1,0 +1,24 @@
+.SwipeButtons{
+    position:fixed;
+    bottom:10vh;
+    display: flex;
+    width:100%;
+    justify-content:space-evenly;
+}
+
+.SwipeButtons .MuiIconButton-root{
+   background-color: white;
+   box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important;
+}
+
+.SwipeButtons__Replay{
+    color:rgb(254, 73, 108) !important;
+}
+
+.SwipeButtons__Star{
+    color:rgb(31, 190, 255) !important;
+}
+
+.SwipeButtons__Favorite{
+    color:rgb(53, 232, 183) !important;
+}
